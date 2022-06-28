@@ -9,7 +9,7 @@
     <c:param name="content">
 
         <h2>日報 編集ページ</h2>
-        <form method="POST" action="<c:url value='?action=${actRep}&command=${commUpd}&id=${mission.id}' />">
+        <form method="POST" action="<c:url value='?action=${actRep}&command=${commUpd}&id=${report.id}&mis_id=${mission.id}' />">
             <c:import url="_form.jsp" />
         </form>
 

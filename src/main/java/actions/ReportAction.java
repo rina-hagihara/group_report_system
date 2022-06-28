@@ -261,7 +261,7 @@ public class ReportAction extends ActionBase {
                 putSessionScope(AttributeConst.FLUSH, MessageConst.I_UPDATED.getMessage());
 
                 //一覧画面にリダイレクト
-                int id = toNumber(getRequestParam(AttributeConst.MIS_ID));
+                int id = toNumber(getRequestParam(AttributeConst.MR_MIS_ID));
                 redirectReportIndex(ForwardConst.ACT_REP, ForwardConst.CMD_INDEX, id);
 
             }

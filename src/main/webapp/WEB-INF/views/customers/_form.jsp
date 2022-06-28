@@ -25,11 +25,11 @@
 <br /><br />
 
 <label for="${AttributeConst.CUS_TEL.getValue()}">電話番号</label><br />
-<input type="text" name="${AttributeConst.CUS_TEL.getValue()}" />
+<input type="text" name="${AttributeConst.CUS_TEL.getValue()}" value="${customer.tel}"/>
 <br /><br />
 
 <label for="${AttributeConst.CUS_ADDRESS.getValue()}">住所</label><br />
-<input type="text" name="${AttributeConst.CUS_ADDRESS.getValue()}" />
+<input type="text" name="${AttributeConst.CUS_ADDRESS.getValue()}" value="${customer.address}" />
 <br /><br />
 
 <fmt:parseDate value="${cutomer.moveDay}" pattern="yyyy-MM-dd'T'HH:mm:ss" var="moveDay" type="date" />

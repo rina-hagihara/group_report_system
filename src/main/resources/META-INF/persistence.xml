@@ -5,7 +5,6 @@
         <class>models.Employee</class>
         <class>models.Report</class>
         <class>models.Customer</class>
-        <class>models.Mission</class>
         <class>models.MissionCustomer</class>
         <class>models.MissionReport</class>
         <properties>

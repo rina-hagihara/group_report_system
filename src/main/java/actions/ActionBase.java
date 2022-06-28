@@ -220,6 +220,14 @@ public abstract class ActionBase {
         return date;
     }
 
+    protected LocalDateTime toTime(String strTime) {
+        if (strTime == null || strTime.equals("")) {
+            return null;
+        }
+        return LocalDateTime.parse(strTime);
+    }
+
+
     /**
      * 文字列をLocalDate型に変換する
      * @param strDate 変換前文字列
