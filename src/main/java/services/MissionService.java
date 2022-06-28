@@ -119,7 +119,7 @@ public class MissionService extends ServiceBase {
 
         //バリデーションエラーがなければデータを更新する
         if (errors.size() == 0) {
-            update(savedMis);
+            updateCommit(savedMis);
         }
 
         //エラーを返却（エラーがなければ0件の空リスト）
