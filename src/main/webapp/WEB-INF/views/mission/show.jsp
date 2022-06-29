@@ -31,12 +31,12 @@
                 </tr>
                 <tr>
                     <th>訪問予定日時</th>
-                    <fmt:parseDate value="${mission.visitStart}" pattern="yyyy-MM-dd'T'HH:mm:ss" var="visitStart" type="date" />
+                    <fmt:parseDate value="${mission.visitStart}" pattern="yyyy-MM-dd'T'HH:mm" var="visitStart" type="date" />
                     <td><fmt:formatDate value="${visitStart}" pattern="yyyy-MM-dd HH:mm:ss" /></td>
                 </tr>
                 <tr>
                     <th>訪問完了日時</th>
-                    <fmt:parseDate value="${mission.visitFinish}" pattern="yyyy-MM-dd'T'HH:mm:ss" var="visitFinish" type="date" />
+                    <fmt:parseDate value="${mission.visitFinish}" pattern="yyyy-MM-dd'T'HH:mm" var="visitFinish" type="date" />
                     <td><fmt:formatDate value="${visitFinish}" pattern="yyyy-MM-dd HH:mm:ss" /></td>
                 </tr>
                 <tr>
@@ -45,27 +45,27 @@
                 </tr>
                                 <tr>
                     <th>引っ越し予定日時</th>
-                    <fmt:parseDate value="${mission.moveStart}" pattern="yyyy-MM-dd'T'HH:mm:ss" var="moveStart" type="date" />
+                    <fmt:parseDate value="${mission.moveStart}" pattern="yyyy-MM-dd'T'HH:mm" var="moveStart" type="date" />
                     <td><fmt:formatDate value="${moveStart}" pattern="yyyy-MM-dd HH:mm:ss" /></td>
                 </tr>
                 <tr>
                     <th>引っ越し完了日時</th>
-                    <fmt:parseDate value="${mission.moveFinish}" pattern="yyyy-MM-dd'T'HH:mm:ss" var="moveFinish" type="date" />
+                    <fmt:parseDate value="${mission.moveFinish}" pattern="yyyy-MM-dd'T'HH:mm" var="moveFinish" type="date" />
                     <td><fmt:formatDate value="${moveFinish}" pattern="yyyy-MM-dd HH:mm:ss" /></td>
                 </tr>
                 <tr>
                     <th>支払い日時</th>
-                    <fmt:parseDate value="${mission.payDue}" pattern="yyyy-MM-dd'T'HH:mm:ss" var="payDue" type="date" />
+                    <fmt:parseDate value="${mission.payDue}" pattern="yyyy-MM-dd'T'HH:mm" var="payDue" type="date" />
                     <td><fmt:formatDate value="${payDue}" pattern="yyyy-MM-dd HH:mm:ss" /></td>
                 </tr>
                 <tr>
                     <th>登録日時</th>
-                    <fmt:parseDate value="${mission.createdAt}" pattern="yyyy-MM-dd'T'HH:mm:ss" var="createDay" type="date" />
+                    <fmt:parseDate value="${mission.createdAt}" pattern="yyyy-MM-dd'T'HH:mm" var="createDay" type="date" />
                     <td><fmt:formatDate value="${createDay}" pattern="yyyy-MM-dd HH:mm:ss" /></td>
                 </tr>
                 <tr>
                     <th>更新日時</th>
-                    <fmt:parseDate value="${mission.updatedAt}" pattern="yyyy-MM-dd'T'HH:mm:ss" var="updateDay" type="date" />
+                    <fmt:parseDate value="${mission.updatedAt}" pattern="yyyy-MM-dd'T'HH:mm" var="updateDay" type="date" />
                     <td><fmt:formatDate value="${updateDay}" pattern="yyyy-MM-dd HH:mm:ss" /></td>
                 </tr>
             </tbody>
